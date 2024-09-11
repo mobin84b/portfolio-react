@@ -1,0 +1,107 @@
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.about>.about-title>h1{
+    position: relative;
+    font-size: 60px;
+    font-weight: 600;
+}
+.about>.about-title>h1::after{
+    content: "";
+    background: #7b4397;
+    background: -webkit-linear-gradient(to right, #ba1a25, #7b4397);
+    background: linear-gradient(to right, #dc2430, #450367);
+    width: 100px;
+    height: 7px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.about-section{
+    display: flex;
+    gap: 80px;
+}
+.about-section>.about-left>img{
+    width: 400px;
+    height: 500px;
+}
+.about-section>.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.about-section>.about-right>.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-right>.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.about-right>.about-skills>.about-skill{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: all .3s;
+    cursor: pointer;
+}
+.about-right>.about-skills>.about-skill>p{
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-right>.about-skills>.about-skill>hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: #7b4397;
+    background: -webkit-linear-gradient(to right, #ba1a25, #7b4397);
+    background: linear-gradient(to right, #dc2430, #450367);
+}
+.about-right>.about-skills>.about-skill:hover{
+    transform: scale(1.03);
+    transition: all .5s;
+}
+.about>.about-achievements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.about>.about-achievements>.about-achievement{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: all .5s;
+}
+.about>.about-achievements>.about-achievement>h1{
+    font-size: 60px;
+    font-weight: 800;
+    background: #7b4397;
+    background: -webkit-linear-gradient(to right, #ee333f, #7b4397);
+    background: linear-gradient(to right, #dc2430, #7b1fa8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about>.about-achievements>.about-achievement>p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.about>.about-achievements>.about-achievement:hover{
+    transform: scale(1.12);
+    transition: all .5s;
+}
