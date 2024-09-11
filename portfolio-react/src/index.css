@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  height: 100vh;
+  background: black;
+  color: white;
+  font-family: "Handjet";
+}
