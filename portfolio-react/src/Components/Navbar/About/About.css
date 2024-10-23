@@ -104,4 +104,5 @@
 .about>.about-achievements>.about-achievement:hover{
     transform: scale(1.12);
     transition: all .5s;
+    cursor: default;
 }
