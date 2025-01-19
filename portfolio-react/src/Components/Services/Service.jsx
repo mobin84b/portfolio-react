@@ -5,9 +5,9 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function Service() {
   return (
-    <div className='service'>
+    <div id='service' className='service'>
         <div className="services-title">
-            <h1>my services</h1>
+            <h1><span>My</span>services</h1>
         </div>
         <div className="service-container">
             {Services_data.map((service,index)=>{

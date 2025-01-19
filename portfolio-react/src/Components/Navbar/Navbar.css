@@ -8,6 +8,7 @@
     width: 75px;
     height: 75px;
     border-radius: 50%;
+    cursor: pointer;
 }
 .nav-menu{
     display: flex;
@@ -15,14 +16,245 @@
     gap: 60px;
     font-size: 20px;
 }
+.nav-menu>li:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
-    background-color: #7b4397;
+    background: linear-gradient(240deg, #DF8908 20%,#B415FF 90%);
     font-size: 22px;
     cursor: pointer;
     transition: all 1s;
 }
 .nav-connect:hover{
     transform: scale(1.08);
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+.navbar>.menu-mob{
+    display: none;
+}
+@media screen and (max-width:1270px) {
+    .nav-connect{
+        padding: 15px 20px;
+        margin-right: 40px;
+    }
+    .navbar{
+        margin: 20px 40px;
+    }
+}
+
+
+@media screen and (max-width:1170px) {
+    .nav-connect{
+        padding: 15px 20px;
+        margin-right: 20px;
+    }
+    .navbar{
+        margin: 20px 40px;
+    }
+}
+
+@media screen and (max-width:1071px) {
+    .nav-connect{
+        padding: 15px 20px;
+        margin-right: 0px;
+        font-size: 25px;
+    }
+    .navbar{
+        margin: 20px 80px;
+    }
+}
+
+
+@media screen and (max-width:990px) {
+
+    .nav-connect{
+        padding: 15px 20px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    .navbar{
+        margin: 20px 40px;
+    }
+}
+
+@media screen and (max-width:912px) {
+    .navbar{
+        margin: 20px 80px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-right: 20px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .navbar{
+        margin: 20px 60px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-right: 10px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .navbar{
+        margin: 20px 150px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-right: 10px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar{
+        margin: 20px 50px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-right: -75px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .navbar{
+        margin: 20px 110px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-right: 15px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .navbar{
+        margin: 20px 90px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-right: 15px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .navbar{
+        margin: 20px 60px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-left: 580px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navbar{
+        margin: 20px 30px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-right: 15px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .navbar{
+        margin: 20px 2px;
+    }
+    .navbar>img{
+        margin-left: 20px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-right: 10px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .navbar{
+        margin: 20px 2px;
+    }
+    .navbar>img{
+        margin-left: 20px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .navbar>.nav-menu>li{
+        display: none;
+    }
+    .navbar>.nav-menu>.menubar{
+        display: block;
+        margin-right: 1px;
+        font-size: 40px;
+    }
 }
